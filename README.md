@@ -1,21 +1,21 @@
 # Hosting a Full-Stack Application
 
-### \*\* \*\*
+### \*\* [The frontend](http://workspacework.s3-website-us-east-1.amazonaws.com/) & [The api](http://udagram-api-dev.eba-mgpqrxmf.us-east-1.elasticbeanstalk.com/)\*\*
 
 ---
 
 ### Dependencies
 
 ```
-- Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
+- Node v14.15.1 (LTS) or more recent.
 
-- npm 6.14.8 (LTS) or more recent, Yarn can work but was not tested for this project
+- npm 6.14.8 (LTS) or more recent.
 
-- AWS CLI v2, v1 can work but was not tested for this project
+- AWS CLI v2
 
 - A RDS database running Postgres.
 
-- A S3 bucket for hosting uploaded pictures.
+- A S3 bucket
 
 ```
 
@@ -50,16 +50,6 @@ The e2e tests are using Protractor and Jasmine.
 ## Walkthrough
 
 ![infrastructure](https://github.com/f-a-t-h-e/Hosting-a-Full-Stack-Application/blob/main/screenshots/infrastucture.png?raw=true)
-
-### Dependencies
-
-This application uses a set of main dependencies
-
-- express (for the server)
-
-- jsonwebtoken (for authantication and authorization)
-
-- angular
 
 ### Piplines
 
