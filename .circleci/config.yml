@@ -68,7 +68,7 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            ls -a
+            cd udagram/udagram-api/www/ && ls -a && cd ../../
             npm run deploy
 
 workflows:
