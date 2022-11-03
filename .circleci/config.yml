@@ -60,10 +60,11 @@ jobs:
     steps:
       - node/install:
           node-version: "14.15"
+      - checkout
       - run:
           name: Test frontend
-          # tests the frontend
           command: |
+            echo "# frontend:test"
             npm run frontend:test
   # deploy step will run only after manual approval
   deploy:
