@@ -1,6 +1,6 @@
 # Hosting a Full-Stack Application
 
-### \*\* [The frontend](http://workspacework.s3-website-us-east-1.amazonaws.com/) & [The api](http://udagram-api-dev.eba-mgpqrxmf.us-east-1.elasticbeanstalk.com/)\*\*
+### \*\* [The frontend](http://workspacework.s3-website-us-east-1.amazonaws.com/) & [The api](http://udagram-api-dev.eba-mgpqrxmf.us-east-1.elasticbeanstalk.com/) & [Status badge](https://app.circleci.com/pipelines/github/f-a-t-h-e/Hosting-a-Full-Stack-Application/75/workflows/9fe4bf4b-0dad-4ca0-87a8-dbae87d871a2/jobs/127/badge.svg)\*\*
 
 ---
 
