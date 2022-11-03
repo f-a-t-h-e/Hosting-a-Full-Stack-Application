@@ -61,10 +61,6 @@ jobs:
       - node/install:
           node-version: "14.15"
       - checkout
-      # - run:
-      #     name: Install Front-End Dependencies
-      #     command: |
-      #       npm run frontend:install
       - run:
           name: Test frontend
           command: |
