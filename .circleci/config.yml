@@ -88,8 +88,8 @@ workflows:
   udagram:
     jobs:
       - build
-      - test
-        requires:
+      - test:
+          requires:
             - build
       - hold:
           filters:
