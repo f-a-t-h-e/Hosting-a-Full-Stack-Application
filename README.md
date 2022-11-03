@@ -59,6 +59,9 @@ The e2e tests are using Protractor and Jasmine.
 
 3.deploy: which deploys the api and the frontend
 
+- deploy the api to aws environment using Elastic BeanStalk cli
+- deploy the front end to S3
+
 ## Built With
 
 - [Angular](https://angular.io/) - Single Page Application Framework
