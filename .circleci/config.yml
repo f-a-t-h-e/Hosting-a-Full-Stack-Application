@@ -32,7 +32,7 @@ jobs:
             echo $(node --version)
             echo "NPM --version" 
             echo $(npm --version)
-            npm run backend:install
+            npm run api:install
       # TODO: Lint the frontend
       - run:
           name: Front-End Lint
