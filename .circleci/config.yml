@@ -73,7 +73,7 @@ jobs:
 workflows:
   udagram:
     jobs:
-      - build:
+      - build
       - hold:
           filters:
             branches:
