@@ -95,10 +95,10 @@ jobs:
 workflows:
   udagram:
     jobs:
-      - test
-      - build:
+      - build
+      - test:
           requires:
-            - test
+            - build
       - hold:
           filters:
             branches:
@@ -106,7 +106,7 @@ workflows:
                 - main
           type: approval
           requires:
-            - build
+            - test
       - deploy:
           requires:
             - hold
