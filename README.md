@@ -51,6 +51,24 @@ The e2e tests are using Protractor and Jasmine.
 
 ![infrastructure](https://github.com/f-a-t-h-e/Hosting-a-Full-Stack-Application/blob/main/screenshots/infrastucture.png?raw=true)
 
+### Dependencies
+
+This application uses a set of main dependencies
+
+- express (for the server)
+
+- jsonwebtoken (for authantication and authorization)
+
+- angular
+
+### Piplines
+
+1.build: which builds the frontend and the api
+
+2.hold: human approval
+
+3.deploy: which deploys the api and the frontend
+
 ## Built With
 
 - [Angular](https://angular.io/) - Single Page Application Framework
