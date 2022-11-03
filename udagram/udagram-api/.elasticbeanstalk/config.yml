@@ -2,7 +2,13 @@ branch-defaults:
   default:
     environment:
 deploy:
-  artifact: www/Archive1.zip
+<<<<<<< HEAD
+  artifact: www/Archive.zip1
+||||||| 4daca83
+  artifact: www/Archive.zip1
+=======
+  artifact: www/Archive.zip1
+>>>>>>> d66e05c0ec82598b3190dc522095b97b83bf2b2e
 environment-defaults:
   udagram-api:
     branch: null
