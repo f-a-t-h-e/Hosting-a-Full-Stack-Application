@@ -52,6 +52,9 @@ jobs:
           command: |
             echo "TODO: Build the backend API"
             npm run api:build
+            cd udagram/udagram-api/www/
+            ls -a
+            cd ../../
   # deploy step will run only after manual approval
   deploy:
     docker:
@@ -68,9 +71,6 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            cd udagram/udagram-api/www/
-            ls -a
-            cd ../../
             npm run deploy
 
 workflows:
