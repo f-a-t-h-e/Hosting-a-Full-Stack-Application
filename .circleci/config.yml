@@ -52,6 +52,19 @@ jobs:
           command: |
             echo "TODO: Build the backend API"
             npm run api:build
+  # frontend tests for deployment
+  test:
+    docker:
+      - image: "cimg/base:stable"
+    # more setup for node
+    steps:
+      - node/install:
+          node-version: "14.15"
+      - run:
+          name: Test frontend
+          # tests the frontend
+          command: |
+            npm run frontend:test
   # deploy step will run only after manual approval
   deploy:
     docker:
@@ -74,6 +87,7 @@ workflows:
   udagram:
     jobs:
       - build
+      - test
       - hold:
           filters:
             branches:
@@ -81,7 +95,7 @@ workflows:
                 - main
           type: approval
           requires:
-            - build
+            - test
       - deploy:
           requires:
             - hold
