@@ -6,7 +6,6 @@
 
 ### Dependencies
 
-```
 - Node v14.15.1 (LTS) or more recent.
 
 - npm 6.14.8 (LTS) or more recent.
@@ -17,7 +16,33 @@
 
 - A S3 bucket
 
-```
+  - @angular/common
+
+  - @angular/core
+
+  - @angular/forms
+
+  - @angular/http
+
+  - @angular/platform-browser
+
+  - @angular/platform-browser-dynamic
+
+  - @angular/router
+
+  - @ionic-native/core
+
+  - @ionic-native/splash-screen
+
+  - @ionic-native/status-bar
+
+  - @ionic/angular
+
+  - core-js
+
+  - rxjs
+
+  - zone.js
 
 ### Installation
 
