@@ -53,6 +53,8 @@ The e2e tests are using Protractor and Jasmine.
 
 ### Piplines
 
+![infrastructure](https://github.com/f-a-t-h-e/Hosting-a-Full-Stack-Application/blob/main/screenshots/pipline%20diagramJPG.JPG?raw=true)
+
 1.build: which builds the frontend and the api
 
 2.hold: human approval
