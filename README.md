@@ -49,6 +49,8 @@ The e2e tests are using Protractor and Jasmine.
 
 ## Walkthrough
 
+### Infrastructure
+
 ![infrastructure](https://github.com/f-a-t-h-e/Hosting-a-Full-Stack-Application/blob/main/screenshots/infraJPG.JPG?raw=true)
 
 ### Piplines
