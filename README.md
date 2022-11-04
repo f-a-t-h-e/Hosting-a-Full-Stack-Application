@@ -16,7 +16,40 @@
 
 - A S3 bucket
 
-- frontend
+- Backend
+  - dependencies
+    - @types/bcryptjs
+    - @types/jsonwebtoken
+    - aws-sdk
+    - bcryptjs
+    - body-parser
+    - cors
+    - dotenv
+    - email-validator
+    - express
+    - jsonwebtoken
+    - pg
+    - reflect-metadata
+    - sequelize
+    - sequelize-typescript
+
+  - devDependencies
+    - @types/bluebird
+    - @types/cors
+    - @types/express
+    - @types/node
+    - @types/sequelize
+    - @typescript-eslint/eslint-plugin
+    - @typescript-eslint/parser
+    - chai
+    - chai-http
+    - eslint
+    - eslint-config-google
+    - mocha
+    - ts-node-dev
+    - typescript
+
+- Frontend
   - dependencies
     - @angular/common
     - @angular/core
