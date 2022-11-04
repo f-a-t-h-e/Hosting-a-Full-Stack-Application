@@ -87,7 +87,11 @@ jobs:
 workflows:
   udagram:
     jobs:
-      - build
+      - build:
+          filters:
+            branches:
+              only:
+                - main
       # - test:
       #     requires:
       #       - build
@@ -100,5 +104,9 @@ workflows:
           requires:
             - build
       - deploy:
+          filters:
+            branches:
+              only:
+                - main
           requires:
             - hold
